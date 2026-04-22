@@ -78,7 +78,10 @@ const AddLeadPage = () => {
           </div>
 
           {/* CTA */}
-          <button className="w-full rounded-2xl bg-gradient-to-r from-blue-600 to-blue-500 py-4 font-semibold text-white shadow-lg shadow-blue-200 hover:scale-[1.01] transition">
+          <button
+            onClick={() => navigate("/leads/1")}
+            className="w-full rounded-2xl bg-gradient-to-r from-blue-600 to-blue-500 py-4 font-semibold text-white shadow-lg shadow-blue-200 hover:scale-[1.01] transition"
+          >
             Save Lead
           </button>
         </div>
