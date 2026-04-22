@@ -12,6 +12,8 @@ export default defineConfig({
       includeAssets: ["favicon.svg"],
 
       manifest: {
+        id: "/",
+        scope: "/",
         name: "Leadvora",
         short_name: "Leadvora",
         description: "Track leads, follow-ups and sales efficiently.",
